@@ -1,0 +1,17 @@
+Ways to setup Django in Visual Studio Code
+
+1. Open terminal :
+code: >> pip install python
+	>> pip install Django
+
+2. To start Django project (in terminal)
+code: >>django-admin startproject <project_name>
+
+:- files will be created. 
+3. Go to project file
+code: >> cd <project_name>
+
+4. Run Django server
+code: >> python manage.py runserver
+
+:- control+clik on the ip address generated
